@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latest News - Tinuola Media Group</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #002147;
+            padding: 20px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-logos .logo {
+            max-height: 60px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-image: url('images/hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .news, .gallery, .contact {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .news h2, .gallery h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #002147;
+            padding-bottom: 10px;
+        }
+        .news-main{
+            border: 6px solid rgb(4, 0, 128);
+            margin: 70px;
+            padding: 40px;
+            border-radius: 10px;
+        }
+
+        .news article {
+            margin-bottom: 20px;
+        }
+
+        .news article h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .news article p {
+            margin: 0;
+        }
+
+        .news article a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #002147;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .news article a:hover {
+            color: #FFD700;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery-container img {
+            width: calc(33.333% - 20px);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .contact h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact ul li a {
+            color: #002147;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .contact ul li a:hover {
+            color: #FFD700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #002147;
+            color: #fff;
+            margin-top: 20px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logos">
+            <img src="images/APC logo.jpg" alt="APC Logo" class="logo">
+            <img src="images/TMG Logo.png" alt="Tinuola Media Group Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">News</a></li> <!-- Link to the news page -->
+            </ul>
+        </nav>
+    </header>
+
+    <main class="news-main">
+        <section class="news-updates">
+            <h1>Latest News</h1>
+            
+            <article>
+                <h2>Headline of the News Article 1</h2>
+                <p><strong>Date:</strong> August 26, 2024</p>
+                <p>A brief description of the first news article. This is where you can give your readers a quick overview of the news. </p>
+                <a href="full-article1.html">Read More</a>
+            </article>
+
+            <article>
+                <h2>Headline of the News Article 2</h2>
+                <p><strong>Date:</strong> August 25, 2024</p>
+                <p>A brief description of the second news article. This snippet should entice readers to click through to read the full story.</p>
+                <a href="full-article2.html">Read More</a>
+            </article>
+
+            <article>
+                <h2>Headline of the News Article 3</h2>
+                <p><strong>Date:</strong> August 24, 2024</p>
+                <p>A brief description of the third news article. This could include key points or interesting facts from the news.</p>
+                <a href="full-article3.html">Read More</a>
+            </article>
+
+            <!-- Additional news articles can be added here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tinuola Media Group. All rights reserved.</p>
+    </footer>
+</body>
+</html>

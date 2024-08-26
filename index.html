@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinuola Media Group - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        header {
+            background-color: #002147;
+            padding: 20px;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header-logos .logo {
+            max-height: 60px;
+            margin-right: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #FFD700;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-image: url('images/hero-background.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: auto;
+            line-height: 1.6;
+        }
+
+        .news, .gallery, .contact {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: auto;
+            background-color: #fff;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .news h2, .gallery h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #002147;
+            padding-bottom: 10px;
+        }
+
+        .news article {
+            margin-bottom: 20px;
+        }
+
+        .news article h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .news article p {
+            margin: 0;
+        }
+
+        .news article a {
+            display: inline-block;
+            margin-top: 10px;
+            color: #002147;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .news article a:hover {
+            color: #FFD700;
+        }
+
+        .gallery-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .gallery-container img {
+            width: calc(33.333% - 20px);
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .contact h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .contact ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact ul li {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .contact ul li a {
+            color: #002147;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .contact ul li a:hover {
+            color: #FFD700;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #002147;
+            color: #fff;
+            margin-top: 20px;
+            box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-logos">
+            <img src="images/APC logo.jpg" alt="APC Logo" class="logo">
+            <img src="images/TMG Logo.png" alt="Tinuola Media Group Logo" class="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">Tinuola News</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Tinuola Media Group</h1>
+            <p>Your trusted source for the latest news and updates about Honorable Abdulazeez Yakubu Aremu, the Chairmanship Candidate for Irepodun Local Government Area.</p>
+        </section>
+
+        <section class="news">
+            <h2>Latest News</h2>
+            <article>
+                <h3>Tinuola Campaign Committee Inaugurated</h3>
+                <p><strong>Date:</strong> August 24, 2024</p>
+                <p>The Tinuola Campaign Committee was inaugurated on Saturday, August 24, 2024. The committee is tasked with leading the campaign efforts leading up to the September 21, 2024 local government elections.</p>
+                <a href="about.html">Read More</a>
+            </article>
+            <!-- Add more articles here -->
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+                <img src="images/Tinuola Wave.png" alt="Tinuola speaking at an event">
+                <img src="images/Tinuola D Blue.png" alt="Tinuola meeting with community leaders">
+                <img src="images/Tinuola STD 1.png" alt="Tinuola Campaign Committee Inauguration">
+                <img src="images/Tinuola Thumb.png" alt="Tinuola engaging with supporters">
+                <img src="images/Tinuola Sit 2.png" alt="Tinuola">
+            </div>
+        </section>
+
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <ul>
+                <li><a href="tel:+2348030757175">Call Tinuola Media</a></li>
+                <li><a href="mailto:tinuolamedia@gmail.com">Email Tinuola Media</a></li>
+                <li><a href="tel:+2348100225555">Call Us</a></li>
+                <li><strong>Address:</strong> Ilaro Compound, Omu-Aran, Irepodun LGA, Kwara State</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tinuola Media Group. All rights reserved.</p>
+    </footer>
+</body>
+</html>
